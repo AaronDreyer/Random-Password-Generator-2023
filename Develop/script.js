@@ -23,7 +23,7 @@ if (completedPrompts) {
   var userPassword = generatePassword();
   passwordText.value = userPassword;
 } else {
-  passwordText.value = "";
+  passwordText.value = "Please try again!";
 }
 }
 
@@ -63,9 +63,13 @@ function prompts() {
     choice = choice.concat(lowerCase);
   }
 
+  if (choice.length == 0) {
+    alert("Please confirm at least one prompt.")
+    return false;
+  }
+
   return true;
 
 }
-
 
 generateBtn.addEventListener("click", writePassword);
