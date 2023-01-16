@@ -1,5 +1,6 @@
 var characterLength = "";
 
+var choice = [];
 var number;
 var specialCharacter;
 var lowerCase;
@@ -14,18 +15,30 @@ upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N
 var generateBtn = document.querySelector("#generate");
 
 function writePassword() {
-  var password = generatePassword();
+  var completedPrompts = prompts();
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
 
+if (completedPrompts) {
+  var userPassword = generatePassword();
+  passwordText.value = userPassword;
+} else {
+  passwordText.value = "";
+}
 }
 
 function generatePassword() {
-
+  var password = "";
+  for(var i = 0; i < characterLength; i++) {
+    var randomIndex = Math.floor(Math.random() * choice.length);
+    password = password + choice[randomIndex];
+  }
+   
+return password;
 }
 
 function prompts() {
+  choice = [];
 
   characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters)"));
 
