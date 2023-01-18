@@ -30,9 +30,9 @@ Links above bring user to deployed page and github repository
 
 This application demonstrates basic javascript and how to use arrays, functions, conditional statements, and other javascript coding to produce a user friendly website with interactivity. This application can generate a password with crtieria selected by the user and will be met with error messaging if user does not follow application requirements.
 
-        Empty Password     |  Password Generated
-:-------------------------:|:-------------------------:
-![](assets/images/_Users_aaronottaway_Desktop_Module-3-Challenge_Random-Password-Generator-2023_Develop_index.html.png)  |  ![](assets/images/_Users_aaronottaway_Desktop_Module-3-Challenge_Random-Password-Generator-2023-password-present_Develop_index.html.png)
+![alt text](assets/images/_Users_aaronottaway_Desktop_Module-3-Challenge_Random-Password-Generator-2023_Develop_index.html.png)
+
+![alt text](assets/images/_Users_aaronottaway_Desktop_Module-3-Challenge_Random-Password-Generator-2023-password-present_Develop_index.html.png)
 
 ## Credits
 
