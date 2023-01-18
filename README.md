@@ -16,7 +16,7 @@ This is a random password generator using javascript. The password generator use
 
 ## Link
 
-[Link to deployed website](https://aarondreyer.github.io/Random-Password-Generator-2023/)
+[Link to deployed website]()
 
 [Link to Repository](https://github.com/AaronDreyer/Random-Password-Generator-2023)
 
